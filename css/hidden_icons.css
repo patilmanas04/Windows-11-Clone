@@ -1,0 +1,45 @@
+.show-hidden-icons{
+    width: 74px;
+    height: 74px;
+    /* background: #ffffffd4; */
+    background: #ffffffeb;
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+    position: absolute;
+    right: 142px;
+    bottom: -1000px;
+    
+    display: grid;
+    grid-template-columns: 37px 37px;
+    grid-template-rows: 37px 37px;
+}
+
+.show-hidden-icons .hidden-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-hidden-icons .hidden-icon img{
+    width: 16px;
+}
+
+.show-hidden-icons .riot-client img{
+    width: 19px;
+}
+
+.show-hidden-icons .riot-client{
+    border-top-left-radius: 4px;
+}
+
+.show-hidden-icons .xbox{
+    border-top-right-radius: 4px;
+}
+
+.show-hidden-icons .onedrive{
+    border-bottom-left-radius: 4px;
+}
+
+.show-hidden-icons .office{
+    border-bottom-right-radius: 4px;
+}

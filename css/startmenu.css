@@ -1,0 +1,147 @@
+.startmenu{
+    /* background-color: red; */
+    width: 570px;
+    margin: auto;
+    /* background-color: #dce4f1; */
+    background: #ffffffd4;
+    backdrop-filter: blur(20px); 
+    border-radius: 10px;
+}
+
+.startmenu .header{
+    display: flex;
+    justify-content: space-between;
+    /* background: brown; */
+    height: 50px;
+    align-items: center;
+    padding: 10px 35px 8px 35px;
+}
+
+.startmenu .header .all-apps{
+    outline: none;
+    font-size: 10px;
+    padding: 2px;
+    box-shadow: 1px 1px 2px #22222240;
+    cursor: pointer;
+}
+
+.startmenu .quick-apps img{
+    width: 32px;
+    margin-bottom: 7px;
+}
+
+.startmenu .quick-apps{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 90px 90px;
+    grid-template-rows: 80px 80px 80px;
+    justify-content: center;
+    font-size: 13px;
+    /* background-color: aqua; */
+    padding: 0px 20px 20px 20px;
+    grid-gap: 2px 2px;
+}
+
+.startmenu .quick-apps .app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: burlywood; */
+    /* border-radius: 8px; */
+    font-size: 12px;
+}
+
+.startmenu .recom-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px;
+}
+
+.startmenu .recom-apps img{
+    width: 30px;
+}
+
+.startmenu .recom-apps{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 3px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.startmenu .recom-apps .recom-apps-flex{
+    display: flex;
+    /* background-color: chocolate; */
+    padding: 10px;
+    /* border-radius: 8px; */
+    font-size: 14px;
+}
+
+.startmenu .recom-apps .app-name{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 8px;
+    /* background-color: blueviolet; */
+}
+
+.startmenu .profile-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    /* background: green; */
+    align-items: center;
+    height: 60px;
+    background: #d3d4d9;
+    border-top: 1px solid #adb4be;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.startmenu .profile-bar .windows-profile{
+    /* background-color: darkgray ; */
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 8px;
+    cursor: pointer;
+    /* border-radius: 8px; */
+}
+
+.startmenu .profile-bar .windows-profile .profile-pic{
+    /* background: blue; */
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    border: 1px solid #e2e2e2;
+}
+
+.startmenu .profile-bar .windows-profile .profile-name{
+    padding: 0px 5px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.startmenu .profile-bar .power{
+    /* background-color: darkblue; */
+    padding: 5px;
+    /* border-radius: 8px; */
+    display: flex;
+    justify-content: center;
+}
+
+.startmenu .font-weight-bold{
+    font-weight: 400;
+}
+
+.startmenu .text-bold{
+    font-weight: bold;
+}

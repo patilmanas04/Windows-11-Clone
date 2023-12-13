@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 11 Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/hover_transitions.css">
+    <link rel="stylesheet" href="css/startmenu.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/widget.css">
+    <link rel="stylesheet" href="css/quick_settings.css">
+    <link rel="stylesheet" href="css/right_click_menu.css">
+    <link rel="stylesheet" href="css/hidden_icons.css">
+    <link rel="stylesheet" href="css/notification_area.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body background="images/bg.jpeg">
+    <!-- <video id="bg-video" autoplay muted>
+        <source src="icons/background/video.webm" type="video/webm">
+    </video> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="startmenu">
+        <div class="header">
+            <div class="pinned-text font-weight-bold text-bold">Pinned</div>
+            <button type="button" class="all-apps">All apps &#62;</button>
+        </div>
+    
+        <div class="quick-apps">
+            <div class="edge app hover-icons">
+                <img src="mid/edge.png" alt="">
+                <div>Edge</div>
+            </div>
+    
+            <div class="word app hover-icons">
+                <img src="icons/word.png" alt="">
+                <div>Word</div>
+            </div>
+    
+            <div class="powerpoint app hover-icons">
+                <img src="icons/powerpoint.png" alt="">
+                <div>Powerpoint</div>
+    
+            </div>
+    
+            <div class="paint app hover-icons">
+                <img src="icons/paint.png" alt="">
+                <div>Paint</div>
+            </div>
+    
+            <div class="notepad app hover-icons">
+                <img src="icons/notepad.png" alt="">
+                <div>Notepad</div>
+            </div>
+    
+            <div class="ms-exel app hover-icons">
+                <img src="icons/msexel.png" alt="">
+                <div>Exel</div>
+            </div>
+    
+            <div class="outlook app hover-icons">
+                <img src="icons/outlook.png" alt="">
+                <div>Outlook</div>
+            </div>
+    
+            <div class="file-explorer app hover-icons">
+                <img src="mid/explorer.png" alt="">
+                <div>File Explorer</div>
+            </div>
+    
+            <div class="terminal app hover-icons">
+                <img src="icons/terminal.png" alt="">
+                <div>terminal</div>
+            </div>
+    
+            <div class="github app hover-icons">
+                <img src="icons/github.png" alt="">
+                <div>Github</div>
+            </div>
+    
+            <div class="vs-code app hover-icons">
+                <img src="icons/vscode.png" alt="">
+                <div>VSCode</div>
+            </div>
+    
+            <div class="whiteboard app hover-icons">
+                <img src="icons/whiteboard.png" alt="">
+                <div>Whiteboard</div>
+            </div>
+    
+            <div class="microsoft-store app hover-icons">
+                <img src="mid/store.png" alt="">
+                <div>Store</div>
+            </div>
+    
+            <div class="mail app hover-icons">
+                <img src="icons/mail.png" alt="">
+                <div>Mail</div>
+            </div>
+        </div>
+    
+        <div class="recom-bar">
+            <div class="recommended-text text-bold">Recommended</div>
+        </div>
+    
+        <div class="recom-apps">
+            <div class="mail recom-apps-flex hover-icons">
+                <img src="icons/mail.png" alt="">
+                <div class="app-name">Mail</div>
+            </div>
+    
+            <div class="vs-code recom-apps-flex hover-icons">
+                <img src="icons/vscode.png" alt="">
+                <div class="app-name">VSCode</div>
+            </div>
+    
+            <div class="terminal recom-apps-flex hover-icons">
+                <img src="icons/terminal.png" alt="">
+                <div class="app-name">Terminal</div>
+            </div>
+    
+            <a href="https://github.com/patilmanas04" target="_blank">
+                <div class="github recom-apps-flex hover-icons">
+                    <img src="icons/github.png" alt="">
+                    <div class="app-name">Github</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="profile-bar">
+            <div class="windows-profile hover-icons">
+                <div class="profile-pic">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                    </svg>
+                </div>
+                <div class="profile-name">Manas Patil</div>
+            </div>
+    
+            <div class="power hover-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
+                    <path d="M7.5 1v7h1V1h-1z"/>
+                    <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z"/>
+                </svg>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="search">
+        <div class="search-bar-div">
+            <div class="search-bar">
+                <div class="search-icon">
+                    <img src="icons/search.png" alt="">
+                </div>
+                <div class="search-input">
+                    <input type="text" class="search-input-box" placeholder="Type here to search">
+                </div>
+            </div>
+        </div>
+
+        <div class="select-bar-div">
+            <div class="select-bar">
+                <div class="select-bar-actual-width">
+                    <div class="all select-bar-options">
+                        All
+                    </div>
+                    <div class="apps select-bar-options">
+                        Apps
+                    </div>
+                    <div class="documents select-bar-options">
+                        Documents
+                    </div>
+                    <div class="web select-bar-options">
+                        Web
+                    </div>
+                    <div class="more select-bar-options">
+                        More
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-apps-heading-div">
+            <div class="top-apps-heading text-bold">
+                Top apps
+            </div>
+        </div>
+
+        <div class="top-apps">
+
+            <div class="top-apps-list">
+                <div class="terminal top-app-box hover-icons-search">
+                    <img src="icons/terminal.png" alt="">
+                    <div>Terminal</div>
+                </div>
+
+                <div class="github top-app-box hover-icons-search">
+                    <img src="icons/github.png" alt="">
+                    <div>Github</div>
+                </div>
+
+                <div class="file-explorer top-app-box hover-icons-search">
+                    <img src="mid/explorer.png" alt="">
+                    <div>File Explorer</div>
+                </div>
+
+                <div class="spotify top-app-box hover-icons-search">
+                    <img src="mid/spotify.png" alt="">
+                    <div>Spotify</div>
+                </div>
+
+                <div class="ms-store top-app-box hover-icons-search">
+                    <img src="mid/store.png" alt="">
+                    <div>Store</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quick-search-heading-div">
+            <div class="quick-search-heading text-bold">
+                Quick Searches
+            </div>
+        </div>
+
+        <div class="quick-search-suggestions-div">
+            <div class="quick-search-suggestions">
+                <div class="weather quick-search-box hover-icons">
+                    <div class="weather-icon quick-search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-sun" viewBox="0 0 16 16">
+                            <path d="M7 8a3.5 3.5 0 0 1 3.5 3.555.5.5 0 0 0 .624.492A1.503 1.503 0 0 1 13 13.5a1.5 1.5 0 0 1-1.5 1.5H3a2 2 0 1 1 .1-3.998.5.5 0 0 0 .51-.375A3.502 3.502 0 0 1 7 8zm4.473 3a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5h-.027z"/>
+                            <path d="M10.5 1.5a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0v-1zm3.743 1.964a.5.5 0 1 0-.707-.707l-.708.707a.5.5 0 0 0 .708.708l.707-.708zm-7.779-.707a.5.5 0 0 0-.707.707l.707.708a.5.5 0 1 0 .708-.708l-.708-.707zm1.734 3.374a2 2 0 1 1 3.296 2.198c.199.281.372.582.516.898a3 3 0 1 0-4.84-3.225c.352.011.696.055 1.028.129zm4.484 4.074c.6.215 1.125.59 1.522 1.072a.5.5 0 0 0 .039-.742l-.707-.707a.5.5 0 0 0-.854.377zM14.5 6.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"/>
+                        </svg>
+                    </div>
+                    <div class="search-suggestion-name">Weather</div>
+                </div>
+    
+                <div class="top-news quick-search-box hover-icons">
+                    <div class="top-news-icon quick-search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+                            <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+                            <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+                        </svg>
+                    </div>
+                    <div class="search-suggestion-name">Top News</div>
+                </div>
+    
+                <div class="today-in-history quick-search-box hover-icons">
+                    <div class="clock-icon quick-search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                    </div>
+                    <div class="search-suggestion-name">Today in History</div>
+                </div>
+    
+                <div class="new-movies quick-search-box hover-icons">
+                    <div class="new-movies-icon quick-search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                            <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
+                        </svg>
+                    </div>
+                    <div class="search-suggestion-name">New Movies</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="widget-menu">
+        <div class="select-bar-div">
+            <div class="select-bar">
+                <div class="select-bar-left">
+                        <div class="home-icon widget-select-bar-icon">
+                            <img src="icons/widget menu icons/home.png" alt="" width="17px">
+                        </div>
+            
+                        <div class="video-icon widget-select-bar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+                                <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                            </svg>
+                        </div>
+        
+                        <div class="tag-icon widget-select-bar-icon">
+                            <img src="icons/widget menu icons/tag.png" alt="" width="19px">
+                        </div>
+                </div>
+        
+                <div class="select-bar-right">
+                    <div class="plus-icon widget-select-bar-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                        </svg>
+                    </div>
+        
+                    <div class="reload-icon widget-select-bar-icon">
+                        <img src="icons/widget menu icons/reload.png" alt="" width="17px">
+                    </div>
+        
+                    <div class="arrow-icon widget-select-bar-icon">
+                        <img src="icons/widget menu icons/double arrow.png" class="double-arrow-icon" alt="" width="17px">
+                    </div>
+        
+                    <div class="profile-icon widget-select-bar-icon">
+                        <div class="profile-pic">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news-widgets">
+            <div class="news-box news1 square-box">
+                
+            </div>
+
+            <div class="news-box news2 square-box">
+                
+            </div>
+ 
+            <div class="news-box news3 rectangle-box">
+                
+            </div>
+
+            <div class="news-box news4 square-box">
+               
+            </div>
+
+            <div class="news-box news5 square-box">
+                
+            </div>
+
+            <div class="news-box news6 square-box">
+                
+            </div>
+
+            <div class="news-box news7 square-box">
+                
+            </div>
+
+            <div class="news-box news8 rectangle-box">
+                
+            </div>
+
+            <div class="news-box news9 square-box">
+                
+            </div>
+
+            <div class="news-box news10 square-box">
+                
+            </div>
+
+            <div class="news-box news11 square-box">
+                
+            </div>
+
+            <div class="news-box news12 square-box">
+                
+            </div>
+
+            <div class="news-box news13 rectangle-box">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="quick-settings-panel">
+        <div class="quick-settings-options">
+            <div class="wifi quick-settings-select">
+                <div class="quick-settings-icon js-wifi">
+                    <img src="icons/wifi.png" alt="">
+                </div>
+                <div class="quick-settings-icon-name">WiFi</div>
+            </div>
+
+            <div class="bluetooth quick-settings-select">
+                <div class="quick-settings-icon js-bluetooth">
+                    <img src="icons/bluetooth.png" alt="">
+                </div>
+                <div class="quick-settings-icon-name">Bluetooth</div>
+            </div>
+
+            <div class="airplane-mode quick-settings-select">
+                <div class="quick-settings-icon js-airplane-mode">
+                    <img src="icons/plane-alt.png" alt="">
+                </div>
+                <div class="quick-settings-icon-name">Airplane mode</div>
+            </div>
+
+            <div class="battery-saver quick-settings-select">
+                <div class="quick-settings-icon js-battery-saver">
+                    <img src="icons/leaf.png" alt="">
+                </div>
+                <div class="quick-settings-icon-name">Battery saver</div>
+            </div>
+
+            <div class="alarms-only quick-settings-select">
+                <div class="quick-settings-icon js-alarms-only">
+                    <img src="icons/moon.png" alt="">
+                </div>
+                <div class="quick-settings-icon-name">Alarms only</div>
+            </div>
+
+            <div class="accessibility quick-settings-select">
+                <div class="quick-settings-icon js-accessibility">
+                    <img src="icons/gingerbread-man.png" alt="">
+                    <img src="icons/angle-small-right.png" alt="">
+                </div>
+                <div class="quick-settings-icon-name">Accessibility</div>
+            </div>
+
+            <div class="night-light quick-settings-select">
+                <div class="quick-settings-icon js-night-light">
+                    <img src="icons/eclipse-alt.png" alt="">
+                </div>
+                <div class="quick-settings-icon-name">Night light</div>
+            </div>
+        </div>
+
+        <div class="brightness-volume">
+            <div class="volume">
+                <div class="volume-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-volume-up" viewBox="0 0 16 16">
+                        <path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"/>
+                        <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"/>
+                        <path d="M10.025 8a4.486 4.486 0 0 1-1.318 3.182L8 10.475A3.489 3.489 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.486 4.486 0 0 1 10.025 8zM7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12V4zM4.312 6.39 6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11z"/>
+                    </svg>
+                </div>
+
+                <div class="volume-slider-div">
+                    <input type="range" class="volume-slider" min="0" max="100" step="1" value="70">
+                </div>
+            </div>
+
+            <div class="brightness">
+                <div class="brightness-icon">
+                    <img src="icons/brightness.png" alt="">
+                </div>
+                
+                <div class="brightness-slider-div">
+                    <input type="range" class="brightness-slider" min="0" max="100" step="1" value="70">
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <div class="left">
+                    <div class="battery quick-actions-icon">
+                        <img src="icons/battery.png" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="edit quick-actions-icon">
+                        <img src="icons/pencil.png" alt="">
+                    </div>
+    
+                    <div class="settings quick-actions-icon">
+                        <img src="icons/settings.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="right-click-menu">
+        <div class="view menu-option angle-small-right hover-icons">
+            <div class="left">
+                <div class="icon">
+                    <img src="right click menu/apps.png" alt="">
+                </div>
+                <div class="option-name">
+                    View
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="right click menu/angle-small-right.png" alt="">
+            </div>
+
+            <div class="view-submenu submenu">
+                <div class="large submenu-option hover-icons">
+                    <div class="selected large-select">
+                        <img src="right click menu/black-circle.png" alt="">
+                    </div>
+                    <div class="submenu-option-name">
+                        Large icons
+                    </div>
+                </div>
+    
+                <div class="medium submenu-option hover-icons">
+                    <div class="selected medium-select">
+                        <img src="right click menu/black-circle.png" alt="">
+                    </div>
+                    <div class="submenu-option-name">
+                        Medium icons
+                    </div>
+                </div>
+    
+                <div class="small submenu-option hover-icons">
+                    <div class="selected small-select">
+                        <img src="right click menu/black-circle.png" alt="">
+                    </div>
+                    <div class="submenu-option-name">
+                        Small icons
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="sort-by menu-option angle-small-right hover-icons">
+            <div class="left">
+                <div class="icon">
+                    <img src="right click menu/sort-alt.png" alt="">
+                </div>
+                <div class="option-name">
+                    Sort by
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="right click menu/angle-small-right.png" alt="">
+            </div>
+
+            <div class="sort-by-submenu submenu">
+                <div class="name submenu-option hover-icons">
+                    <div class="submenu-option-name">
+                        Name
+                    </div>
+                </div>
+    
+                <div class="size submenu-option hover-icons">
+                    <div class="submenu-option-name">
+                        Size
+                    </div>
+                </div>
+    
+                <div class="item-type submenu-option hover-icons">
+                    <div class="submenu-option-name">
+                        Item type
+                    </div>
+                </div>
+    
+                <div class="date-modified submenu-option hover-icons">
+                    <div class="submenu-option-name">
+                        Date modified
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="refresh menu-option hover-icons">
+            <div class="icon">
+                <img src="right click menu/reload.png" alt="">
+            </div>
+            <div class="option-name">
+                Refresh
+            </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="new-item menu-option angle-small-right hover-icons">
+            <div class="left">
+                <div class="icon">
+                    <img src="right click menu/add.png" alt="">
+                </div>
+                <div class="option-name">
+                    New item
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="right click menu/angle-small-right.png" alt="">
+            </div>
+
+            <div class="new-item-submenu submenu">
+                <div class="submenu-option hover-icons">
+                    <div class="folder-icon submenu-icon">
+                        <img src="right click menu/folder.png" alt="">
+                    </div>
+                    <div class="submenu-option-name">
+                        Folder
+                    </div>
+                </div>
+    
+                <div class="submenu-option hover-icons">
+                    <div class="shortcut-icon submenu-icon">
+                        <img src="right click menu/shortcut.png" alt="">
+                    </div>
+                    <div class="submenu-option-name">
+                        Shortcut
+                    </div>
+                </div>
+    
+                <div class="submenu-option hover-icons">
+                    <div class="text-document-icon submenu-icon">
+                        <img src="right click menu/file.png" alt="">
+                    </div>
+                    <div class="submenu-option-name">
+                        Text Document
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="hr"></div>
+
+        <div class="display-settings menu-option hover-icons">
+            <div class="icon">
+                <img src="right click menu/display-settings.png" alt="">
+            </div>
+            <div class="option-name">
+                Display settings
+            </div>
+        </div>
+
+        <div class="personalize menu-option hover-icons">
+            <div class="icon">
+                <img src="right click menu/paint-brush.png" alt="">
+            </div>
+            <div class="option-name">
+                Personalize
+            </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="windows-terminal menu-option hover-icons">
+            <div class="icon">
+                <img src="right click menu/terminal.png" alt="">
+            </div>
+            <div class="option-name">
+                Open in Windows Terminal
+            </div>
+        </div>
+
+        <div class="more-options menu-option hover-icons">
+            <div class="icon">
+                <img src="right click menu/more-options.png" alt="">
+            </div>
+            <div class="option-name">
+                Show more options
+            </div>
+        </div>
+    </section>
+
+    <section class="show-hidden-icons">
+        <div class="riot-client hidden-icon hover-icons">
+            <img src="hidden icons/riot client.png" alt="">
+        </div>
+
+        <div class="xbox hidden-icon hover-icons">
+            <img src="hidden icons/xbox.png" alt="">
+        </div>
+
+        <div class="onedrive hidden-icon hover-icons">
+            <img src="hidden icons/onedrive.png" alt="">
+        </div>
+
+        <div class="office hidden-icon hover-icons">
+            <img src="hidden icons/office.png" alt="">
+        </div>
+    </section>
+
+    <section class="notification-area">
+        <div class="notifications">
+            <div class="upper-bar">
+                <div class="name-div">
+                    Notifications
+                </div>
+
+                <div class="snooze-icon">
+                    <img src="notification area/snooze.png" alt="">
+                </div>
+            </div>
+
+            <div class="notification-box">
+                No new notifications
+            </div>
+        </div>
+
+        <div class="date-calender">
+            <div class="upper-bar">
+                <div class="calender-date">
+                </div>
+            </div>
+
+            <div class="show-calender">
+                <img src="notification area/showhidden.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="taskbar">
+        <div class="left">
+            <div class="widget hover-icons">
+                <img src="mid/widget.png" alt="widget">
+            </div>
+        </div>
+
+
+        <div class="mid">
+            <div class="mid-icon hover-icons home">
+                <img src="mid/home.png" alt="home" id="home">
+            </div>
+            <div class="mid-icon" id="search-icon-taskbar">
+                <div class="search-mid-div">
+                    <div class="search-icon">
+                        <img src="mid/search.png" alt="">
+                    </div>
+                    <div class="search-icon-name">
+                        Search
+                    </div>
+                </div>
+            </div>
+            <div class="mid-icon hover-icons">
+                <img src="mid/explorer.png" alt="file-explorer" id="my-file">
+            </div>
+            <div class="mid-icon hover-icons">
+                <img src="mid/edge.png" alt="edge" id="edge">
+            </div>
+            <div class="mid-icon hover-icons">
+                <img src="mid/spotify.png" alt="spotify" id="spotify">
+            </div>
+            <div class="mid-icon hover-icons">
+                <img src="mid/store.png" alt="microsoft-store">
+            </div>
+            <div class="mid-icon hover-icons">
+                <img src="mid/Settings.png" alt="settings">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="menu-up hover-icons">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-up" class="svg-inline--fa fa-chevron-up " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-flip="false" data-invert="false" data-rounded="false" style="width: 10px; height: 10px;"><path fill="currentColor" d="M201.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 173.3 54.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path></svg>
+            </div>
+
+            <div class="control-shortcuts hover-icons">
+                <div class="wifi control-shortcuts-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
+                        <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z"/>
+                        <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+                    </svg>
+                </div>
+
+                
+                <div class="volume control-shortcuts-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-volume-up" viewBox="0 0 16 16">
+                        <path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"/>
+                        <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"/>
+                        <path d="M10.025 8a4.486 4.486 0 0 1-1.318 3.182L8 10.475A3.489 3.489 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.486 4.486 0 0 1 10.025 8zM7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12V4zM4.312 6.39 6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11z"/>
+                    </svg>
+                </div>
+
+                <div class="battery control-shortcuts-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-half" viewBox="0 0 16 16">
+                        <path d="M2 6h5v4H2V6z"/>
+                        <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="date-time hover-icons">
+                <div class="time">08:41 PM</div>
+                <div class="date">03/21/23</div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/unsplash_api.js"></script>
+</body>
+</html>

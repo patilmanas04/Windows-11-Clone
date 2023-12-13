@@ -1,0 +1,79 @@
+.notification-area{
+    width: 318px;
+    height: 270px;
+    position: absolute;
+    right: -400px;
+    bottom: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14.5px;
+}
+
+.notification-area .notifications{
+    background: #ffffffe5;
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+}
+
+.notification-area .notifications .upper-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0px 15px;
+    /* background-color: red; */
+}
+
+.notification-area .notifications .upper-bar img{
+    width: 12px;
+}
+
+.notification-area .notifications .upper-bar .snooze-icon{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px #0000004f;
+    cursor: pointer;
+
+}
+
+.notification-area .notifications .notification-box{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.notification-area .date-calender{
+    background: #ffffffe5;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-radius: 8px;
+    padding: 0px 15px;
+}
+
+.notification-area .date-calender img{
+    width: 10px;
+}
+
+.notification-area .date-calender .show-calender{
+    background: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px #0000004f;
+    cursor: pointer;
+}

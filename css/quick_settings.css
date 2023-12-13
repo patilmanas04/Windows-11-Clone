@@ -1,0 +1,125 @@
+.quick-settings-panel{
+    width: 340px;
+    /* background: #f2f2f2; */
+    background: #ffffffd4;
+    backdrop-filter: blur(20px);
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 20px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.quick-settings-panel .quick-settings-options{
+    height: 260px;
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 70px 70px 70px;
+    justify-content: center;
+    gap: 15px 15px;
+}
+
+.quick-settings-panel .quick-settings-options .quick-settings-select img{
+    width: 15px;
+}
+
+.quick-settings-panel .quick-settings-options .quick-settings-select .quick-settings-icon{
+    height: 50px;
+    width: 90px;
+    background: #fcfbfc;
+    /* background-color: #0068c0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #22222240;
+    cursor: pointer;
+}
+
+.quick-settings-panel .quick-settings-options .quick-settings-select .quick-settings-icon-name{
+    width: 90px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-settings-panel .quick-settings-options .alarms-only .quick-settings-icon img{
+    transform: rotate(45deg);
+}
+
+.quick-settings-panel .brightness-volume{
+    margin-top: 13px;
+}
+
+.quick-settings-panel .brightness-volume img{
+    width: 17px;
+    height: 17px;
+}
+
+.quick-settings-panel .brightness-volume .brightness{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+
+.quick-settings-panel .brightness-volume .brightness .brightness-slider-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-settings-panel .brightness-volume .brightness .brightness-slider-div .brightness-slider{
+    width: 260px;
+    height: 3px;
+    margin-left: 10px;
+}
+
+.quick-settings-panel .brightness-volume .volume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+
+.quick-settings-panel .brightness-volume .volume .volume-slider-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-settings-panel .brightness-volume .volume .volume-slider-div .volume-slider{
+    width: 260px;
+    height: 3px;
+    margin-left: 10px;
+}
+
+.quick-settings-panel .quick-actions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 18px;
+    /* background-color: #efefef; */
+    /* background: #ffffff91; */
+    background: #ffffff52;;
+    backdrop-filter: blur(20px);
+    border-top: 1px solid #adb4be;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.quick-settings-panel .quick-actions .quick-actions-icon img{
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.quick-settings-panel .quick-actions .battery img{
+    width: 20px;
+}
+
+.quick-settings-panel .quick-actions .right{
+    display: flex;
+    width: 55px;
+    justify-content: space-between;
+}

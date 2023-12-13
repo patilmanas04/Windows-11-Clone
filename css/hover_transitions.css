@@ -1,0 +1,189 @@
+/* background-color: #ffffffe8;
+border-radius: 5px; */
+
+.taskbar .hover-icons{
+    border-radius: 4px;
+    transition: all 80ms ease-in;
+}
+
+.taskbar .hover-icons:hover{
+    background-color: #edf6fb;
+}
+
+.startmenu .hover-icons{
+    border-radius: 4px;
+    transition: all 20ms ease-in;
+    cursor: default;
+}
+
+.startmenu .hover-icons:hover{
+    /* background-color: #edf6fb; */
+    background-color: white;
+}
+
+.startmenu{
+    /* transform: translateY(1000px); */
+    position: absolute;
+    left: 50%;
+    bottom: -600px;
+    transform: translate(-50%);
+    transition: all 300ms ease-in-out;
+}
+
+.search{
+    position: absolute;
+    left: 50%;
+    bottom: -600px;
+    transform: translate(-50%);
+    transition: all 300ms ease-in-out;
+}
+
+.search .hover-icons{
+    border-radius: 4px;
+    transition: all 20ms ease-in;
+}
+
+.search .hover-icons:hover{
+    background-color: white;
+}
+
+.search .top-apps .top-apps-list .hover-icons-search{
+    transition: all 20ms ease-in;
+}
+
+.search .top-apps .top-apps-list .hover-icons-search:hover{
+    background-color: #e6e6e6;
+}
+
+.widget-menu{
+    position: absolute;
+    /* left: 9px; */
+    left: -600px;
+    bottom: 55px;
+    transition: all 500ms ease-in-out;
+}
+
+/* .search .select-bar-div .select-bar .select-bar-options{
+    border-bottom: 2px solid #40759b;
+} */
+
+.search .select-bar-div .select-bar .all{
+    border-bottom: 2px solid none transparent;
+}
+.search .select-bar-div .select-bar .apps{
+    border-bottom: 2px solid none transparent;
+}
+.search .select-bar-div .select-bar .documents{
+    border-bottom: 2px solid none transparent;
+}
+.search .select-bar-div .select-bar .web{
+    border-bottom: 2px solid none transparent;
+}
+.search .select-bar-div .select-bar .more
+{
+    border-bottom: 2px solid none transparent;
+}
+
+.quick-settings-panel .quick-settings-options .quick-settings-icon{
+    transition: all 30ms ease-in;
+}
+
+.quick-settings-panel{
+    position: absolute;
+    right: 9px;
+    bottom: -500px;
+    transition: all 300ms ease-in-out;
+}
+
+
+
+
+
+
+
+.right-click-menu .hover-icons{
+    transition: all 10ms ease-in;
+}
+
+.right-click-menu .hover-icons:hover{
+    background: #00000030;
+    /* backdrop-filter: blur(20px); */
+}
+
+
+.right-click-menu{
+    transition: opacity 3000ms ease-in-out;
+    display: none;
+}
+
+
+
+
+.right-click-menu .view-submenu{
+    pointer-events: none;
+    transition: 10ms ease 400ms;
+}
+.right-click-menu .view:hover .view-submenu{
+    opacity: 100;
+    pointer-events: auto;
+}
+
+
+
+.right-click-menu .sort-by-submenu{
+    pointer-events: none;
+    transition: 10ms ease 400ms;
+}
+.right-click-menu .sort-by:hover .sort-by-submenu{
+    pointer-events: auto;
+    opacity: 100;
+}
+
+
+.right-click-menu .new-item-submenu{
+    pointer-events: none;
+    transition: 10ms ease 400ms;
+}
+.right-click-menu .new-item:hover .new-item-submenu{
+    pointer-events: auto;
+    opacity: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show-hidden-icons{
+    position: absolute;
+    bottom: -100px;
+    transition: all 200ms ease-in-out;
+}
+
+.show-hidden-icons .hover-icons{
+    transition: all 80ms ease-in;
+}
+
+.show-hidden-icons .hover-icons:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+.notification-area{
+    transition: all 300ms ease-in-out;
+}

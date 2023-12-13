@@ -1,0 +1,187 @@
+.right-click-menu{
+    width: 250px;
+    height: 295px;
+    padding: 5px;
+    background: #ffffffe5;
+    backdrop-filter: blur(20px);
+    font-size: 14px;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0px 0px 3px #0000004f;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-click-menu .menu-option{
+    display: flex;
+    height: 25px;
+    padding: 5px;
+    /* background-color: chocolate; */
+    border-radius: 4px;
+}
+
+.right-click-menu .angle-small-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-click-menu .menu-option .left{
+    display: flex;
+}
+
+.right-click-menu .menu-option .right{
+    display: flex;
+    align-items: center;
+}
+
+.right-click-menu .menu-option img{
+    width: 16px;
+}
+
+.right-click-menu .menu-option .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.right-click-menu .menu-option .option-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-click-menu .hr{
+    height: 1px;
+    background: #0000002b;
+}
+
+.right-click-menu .submenu{
+    box-shadow: 0px 0px 5px #0000004f;
+}
+
+.right-click-menu .view-submenu{
+    position: absolute;
+    left: 252px;
+    top: 9px;
+    background: #ffffffe5;
+    font-size: 14px;
+    height: 80px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 7px;
+    opacity: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-click-menu .view-submenu img{
+    width: 8px;
+}
+
+.right-click-menu .view-submenu .submenu-option{
+    display: flex;
+    height: 25px;
+    /* background-color: chocolate; */
+    border-radius: 4px;
+}
+
+.right-click-menu .view-submenu .submenu-option .selected{
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+    visibility: hidden;
+}
+
+.right-click-menu .view-submenu .submenu-option .submenu-option-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.right-click-menu .sort-by-submenu{
+    position: absolute;
+    left: 252px;
+    top: 44px;
+    background: #ffffffe5;
+    font-size: 14px;
+    height: 106px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 7px;
+    opacity: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-click-menu .sort-by-submenu .submenu-option{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.right-click-menu .sort-by-submenu .submenu-option-name{
+    padding-left: 15px;
+}
+
+
+
+
+
+
+.right-click-menu .new-item-submenu{
+    position: absolute;
+    left: 252px;
+    top: 120px;
+    background: #ffffffe5;
+    font-size: 14px;
+    height: 96px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 7px;
+    opacity: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-click-menu .new-item-submenu .submenu-option{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.right-click-menu .new-item-submenu .submenu-option img{
+    width: 16px;
+}
+
+.right-click-menu .new-item-submenu .submenu-option .submenu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.right-click-menu .new-item-submenu .submenu-option .submenu-option-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
